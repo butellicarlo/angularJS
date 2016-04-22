@@ -1,0 +1,22 @@
+.boxed {
+    border: 1px solid green ;  
+    width: 250px;
+    margin: 1.858736059%;
+    overflow: auto;
+}
+
+.boxed p {
+   overflow: hidden;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.boxed h1 {
+    float: left;
+}
+
+.boxed em {
+    margin-left: 100px;
+}
