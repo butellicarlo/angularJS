@@ -1,22 +1,21 @@
-.boxed {
-    border: 1px solid green ;  
-    width: 250px;
-    margin: 1.858736059%;
+.list-group-item {
+    width: 250px;  
     overflow: auto;
+    text-align: justify;
 }
 
-.boxed p {
+.list-group-item p {
    overflow: hidden;
    display: -webkit-box;
    line-height: 16px;     /* fallback */
-   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-line-clamp: 5; /* number of lines to show */
    -webkit-box-orient: vertical;
 }
 
-.boxed h1 {
+.list-group-item h1 {
     float: left;
 }
 
-.boxed em {
+.list-group-item em {
     margin-left: 100px;
 }
